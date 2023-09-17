@@ -1,0 +1,7 @@
+<test name="Gherkin-QAF-Test">
+   <parameter name="step.provider.pkg" value="pkg.to.look.for.steps" />
+   <parameter name="scenario.file.loc" value="resources/features" />
+   <classes>
+      <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+   </classes>
+</test>
